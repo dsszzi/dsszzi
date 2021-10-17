@@ -1,0 +1,149 @@
+.header {
+    width: 1600px;
+    height: 766px;
+    background: url(../images/artist.jpg);
+    margin: auto;
+}
+
+.discount {
+    height: 304px;
+    width: 1600px;
+    background: url(../images/guitar.jpg);
+    margin: auto;
+}
+
+.upcoming-shows {
+    height: 766px;
+    width: 1600px;
+    background: url(../images/lots-of-people.jpg);
+    margin: auto;
+}
+
+.buy-strem-records {
+    height: 1203px;
+    width: 1600px;
+    background: url(../images/hands.jpg);
+    margin: auto;
+}
+
+.overture-artist {
+    height: 790px;
+    width: 1600px;
+    background-image: url(../images/people2.jpg);
+    margin: auto;
+}
+
+.sign-up-to-overture {
+    height: 417px;
+    width: 1600px;
+    background: url(../images/musicians.jpg);
+    margin: auto;
+}
+
+
+/* creating navbar with logo and sign in */
+
+.logo {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-pic {
+    height: 64px;
+}
+
+.nav {
+    line-height: 120px;
+    height: 17px;
+    width: 531px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in-sign-up {
+    width: 119px;
+    color: #ffffff;
+    font-family: Chivo;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.sign-in-sign-up a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.overture-presents {
+    height: 14px;
+    width: 124px;
+    color: #ffffff;
+    font-family: Chivo;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14px;
+    display: inline;
+}
+
+.post-malone {
+    height: 57px;
+    width: 288px;
+    color: #ffffff;
+    font-family: Chivo;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 57px;
+    display: inline-block;
+}
+
+.may-15-20-00 {
+    height: 29px;
+    width: 161px;
+    color: #ffffff;
+    font-family: Chivo;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.post-malone-is-is-si {
+    height: 72px;
+    width: 466px;
+    color: #ffffff;
+    font-family: Chivo;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.rectangle-2 {
+    height: 766px;
+    width: 1600px;
+    margin-left: 231px;
+    margin-top: 249px;
+}
+
+.streaming-live {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: inline;
+}
