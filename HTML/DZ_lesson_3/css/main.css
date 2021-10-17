@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+
+}
+
+.main-img-content {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.header {
+    background-color: red;
+    color: #dddddd;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-container {
+    justify-content: center;
+}
+
+.main-content {
+    align-content: center;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.hamon {
+    width: 25%;
+    border: 5px solid white;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.torro {
+    width: 25%;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.toreodor {
+    width: 25%;
+    border: 5px solid white;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+
+}
+
+.contacts {
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+}
+
+li {
+    font-size: 16px;
+    list-style: none;
+    color: #dddddd;
+}
+
