@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border_20 {
+    border-radius: 20px;
+    background-color: darkblue;
+}
+
+.main {
+    background-color: lightskyblue;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_border {
+    border: 5px solid lightskyblue;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main_menu {
+    background-color: lightgrey;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    background-color: #1e2939;
+    width: 200px;
+    height: 70px;
+}
+
+.main_menu__nav {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav_link {
+    background-color: #1e2939;
+    width: 70px;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.main_header {
+    background-color: lightskyblue;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_header__content {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background-color: darkblue;
+    height: 50px;
+    width: 200px;
+}
+
+.main_card_list {
+    background-color: lightgrey;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common_card {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    width: 90%;
+    height: 90%;
+    border: 5px solid lightskyblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_list {
+    background-color: darkblue;
+    width: 300px;
+    height:300px;
+
+}
+
+.down_product {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+    background-color: darkblue;
+}
+
+.main_box__card {
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+.down_product__card {
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.invisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+}
+
+.main_card_list {
+    background-color: lightgrey;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_list_block {
+    border: 5px solid darkblue;
+    width: 400px;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card_list_block__picture {
+    width: 90%;
+    height: 40%;
+    margin-top: 5px;
+}
+
+.card_list_block__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.picture_description {
+    height: 100px;
+    width: 100%;
+}
+
+.left_nav {
+    background-color: darkblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.right_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+
+}
+
+.three_point {
+    background-color: darkblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.description_block {
+    display: flex;
+    width: 90%;
+}
+
+.description_block__left {
+    background-color: darkblue;
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.description_block__right {
+    background-color: lightskyblue;
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: darkblue;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.block {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.block_menu {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.line {
+    height: 10px;
+    width: 600px;
+    background-color: white;
+}
+
+
