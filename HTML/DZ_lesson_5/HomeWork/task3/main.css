@@ -1,0 +1,42 @@
+:root {
+    --color_dark__gray: gray;
+    --color_light__blue: lightblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 22px;
+}
+
+.wrap_widgets__header{
+    background-color: var(--color_dark__gray);
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.wrap_widgets__list{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.widget {
+    background-color: var(--color_light__blue);
+    width: 33%;
+}
+
+.contact {
+    background-color: var(--color_dark__gray);
+    height: 200px;
+    width: 100%;
+    margin-top: 3px;
+}
