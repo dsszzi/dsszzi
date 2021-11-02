@@ -1,18 +1,101 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Restaurant</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Tinos:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+<div class="header">
+    <div class="header__top wrapper">
+        <div class="header__logo"><img src="image/LOGO.svg" alt="logotype">
+        </div>
+        <div class="header__menu">
+            <div class="nav">
+                <div class="nav__item"><a href="">ГЛАВНАЯ</a></div>
+                <div class="nav__item"><a href="">МЕНЮ</a></div>
+                <div class="nav__item"><a href="">О НАС</a></div>
+                <div class="nav__item"><a href="">БРОНЬ</a></div>
+                <div class="nav__item">
+                    <a href="">
+                        <img class="nav__image" src="image/shopping-cart-solid.svg" alt="Shopping">
+                    </a>
+                </div>
+                <div class="header__contacts">
+                    <div class="header__phone">
+                        <img src="image/phone.png" alt="phone">+999-888-76-54
+                        <p>
+                            Свяжитесь с нами для
+                            бронирования
+                        </p>
+                    </div>
+                    <button class="header_btn">ЗАКАЗ СТОЛИКА</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav__menu_mobile">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="main__header wrapper">
+        <div class="main__header_title">
+            <h2 class="main__header-desktop">Добро пожаловать в</h2>
+            <h2 class="main__header-mobile">Добро пожаловать</h2>
+            <h1 class="main__header-desktop">Наш ресторан</h1>
+            <h1 class="main__header-mobile">В наш ресторан</h1>
+
+            <p>ДОМ ЛУЧШЕЙ ЕДЫ</p>
+            <button class="header_btn">VIEW MENU</button>
+        </div>
+    </div>
+
+</div>
+<div class="menu_description">
+    <div class="menu__description_card">
+        <div class="menu__plate">
+            <img src="image/dish.png" alt="dish">
+        </div>
+        <div class="menu__content">
+            <h3>Магическая <span>Атмосфера</span></h3>
+            <p>В нашем заведении царит <br>магическая атмосфера
+                наполненная вкусными <br>ароматами</p>
+        </div>
+    </div>
+    <div class="menu__description_card">
+        <div class="menu__plate">
+            <img src="image/dish.png" alt="dish">
+        </div>
+        <div class="menu__content">
+            <h3>Лучшее качество <span>Еды</span></h3>
+            <p>Качество нашей <br>
+                Еды - отменное!
+            </p>
+        </div>
+    </div>
+    <div class="menu__description_card">
+        <div class="menu__plate">
+            <img src="image/dish.png" alt="dish">
+        </div>
+        <div class="menu__content">
+            <h3>Недорогая <span>Еда</span></h3>
+            <p>Стоимость нашей Еди <br>
+                зависит только от ее <br>
+                количества. Качество <br>
+                всегда на высоте!
+            </p>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
