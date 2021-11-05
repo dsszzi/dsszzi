@@ -397,3 +397,83 @@ footer, header, hgroup, menu, nav, section {
     gap: 8px;
 }
 
+.footer {
+    width: 1443px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 188% */
+
+    letter-spacing: -0.4px;
+
+    /* Elsässer Footer Paragraph Grey */
+
+    color: #9EABBB;
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+.address {
+
+    width: 300px;
+
+}
+.contacts {
+    width: 400px;
+}
+
+.short_links {
+align-items: flex-end;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.he-last {
+    height: 212px;
+    width: 1443px;
+    display: flex;
+    background-color: #9EABBB;
+}
+
+.heder2 {
+    width: 702px;
+}
+
+.center__content {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_button {
+    width: 306px;
+    height: 69px;
+    left: 605px;
+    top: 5994px;
+    text-align: center;
+    vertical-align: center;
+
+    /* Elsässer Megabutton Blue */
+
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+    border-radius: 12px;
+}
+
+.logo2 {
+    width: 20px;
+}
+
