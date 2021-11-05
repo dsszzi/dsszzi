@@ -25,11 +25,36 @@ footer, header, hgroup, menu, nav, section {
 
 .wrapper {
     width: 1442px;
-    background-color: #656363;
 }
 
 .nav_flex {
     display: flex;
+}
+
+.logo {
+    padding-right: 90px;
+    padding-left: 100px;
+}
+
+.navbar-nav {
+    row-gap: 30px;
+}
+
+.navbar_border {
+    border: 2px solid;
+    mix-blend-mode: multiply;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #2E75FF;
+}
+
+.nav-link {
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
 }
 
 .product__card-container {
@@ -51,7 +76,43 @@ footer, header, hgroup, menu, nav, section {
 .product__card-description {
     width: 653px;
     height: 655px;
-    background-color: #595959;
+    padding-left: 118px;
+}
+
+.main-header {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    margin-top: 102px;
+    padding-bottom: 50px;
+}
+
+.product__card-description h1 {
+
+}
+
+.product__card-description > p {
+    width: 410px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+
+.line {
+    width: 227px;
+    height: 7px;
+    left: 121px;
+    top: 389px;
+    background-color: #EDEFF3;
+    margin: 35px 0;
 }
 
 .product__card-activity {
@@ -69,13 +130,78 @@ footer, header, hgroup, menu, nav, section {
     width: 1445px;
     height: 728px;
     background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    padding-top: 151px;
+    padding-left: 141px;
 }
 
 .product__card-last {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    w1442
+    justify-content: flex-start;
+    width: 1442px;
+    margin-left: 41px;
+}
+
+.description__container p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    width: 410px;
+    color: #FBFDFF;
+    padding-bottom: 30px;
+}
+
+.description__container h1 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    padding-bottom: 30px;
+}
+
+.description__container_next p {
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.description__container_next h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+    width: 440px;
+    padding-bottom: 41px;
+    padding-top: 91px;
+}
+
+.product__card-description h2 {
+    padding-bottom: 30px;
+    padding-top: 168px;
+}
+
+.second p {
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
 }
 
 .card {
@@ -83,7 +209,7 @@ footer, header, hgroup, menu, nav, section {
     width: 394px;
     height: 136px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
 }
 
@@ -101,7 +227,7 @@ footer, header, hgroup, menu, nav, section {
 
 .proposition__cards {
 
-justify-content: center;
+    justify-content: center;
 }
 
 .h4 {
@@ -126,7 +252,6 @@ justify-content: center;
     height: 136px;
 }
 
-
 .proposition__cards {
     padding-bottom: 57px;
 }
@@ -137,7 +262,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     background: #FFFFFF;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
 
     flex-wrap: wrap;
@@ -159,4 +284,116 @@ justify-content: center;
     height: 396px;
 }
 
+.bilder__block {
+    padding-top: 74px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+}
+
+.bilder__block h2 {
+    padding-bottom: 31px;
+}
+
+. bilder__block {
+    width: 610px;
+    height: 813px;
+    left: 429px;
+    top: 4385px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bilder__slaider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    padding-left: 415px;
+    padding-top: 29px;
+}
+
+.bilder__slaider_left,
+.bilder__slaider_right {
+    width: 126px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bilder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bilder__slaider_dots {
+    display: flex;
+    gap: 28px;
+    padding-left: 51px;
+}
+
+.dot2 {
+    width: 12px;
+    height: 12px;
+    background: #80ABFF;
+    opacity: 0.35;
+    border: 1px solid #0045AC;
+    border-radius: 50%;
+    margin-bottom: 65px;
+}
+
+.dot1 {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
+}
+
+
+.tips_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__tips h2 {
+    padding-top: 78px;
+    padding-bottom: 44px;
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #020303;
+}
+
+.tips {
+    width: 394.12px;
+    height: 64px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    text-align: center;
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+    gap: 8px;
+}
 
