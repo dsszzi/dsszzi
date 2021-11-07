@@ -1,0 +1,180 @@
+@media screen and (max-width: 320px) {
+    .main_container {
+        width: 320px;
+    }
+
+    .main_header {
+        display: none;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo img {
+        width: 36.78px;
+        height: 40.2px;
+    }
+
+    .logo_title h1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .logo_title p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .main__header-contacts h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .product__container {
+        width: 320px;
+    }
+
+    .main__header-worktime {
+        display: none
+    }
+
+    .main__header-location {
+        display: none;
+    }
+
+    .main__header-down_user {
+        display: none;
+    }
+
+    .subscribe__btn-home {
+        width: 34px;
+        height: 34px;
+        background: #005BB9;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .subscribe__btn-home span {
+        display: none;
+    }
+
+    .subscribe__btn-home img {
+        display: block;
+    }
+
+    .main__content-proposal {
+        flex-direction: column;
+    }
+
+    .period__description {
+        flex-direction: column;
+    }
+
+    .company__info {
+        flex-direction: column;
+    }
+
+    .vertival_circle {
+        display: none;
+    }
+
+    .vertical_line {
+        display: none;
+    }
+
+    .line-block span {
+        display: none;
+    }
+
+    .card {
+        width: 320px;
+        height: 145px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .discont-card {
+        width: 320px;
+        height: 145px;
+    }
+
+    .card-title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .card-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .card-footer {
+        height: 32px;
+        margin: 0;
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .prise p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cart__btn {
+        width: 32px;
+        height: 32px;
+    }
+
+    .old_prise {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main__header-down_menu span {
+        display: none;
+    }
+
+    .main__header-down_menu {
+        width: 34px;
+        height: 34px;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .line-block {
+        width: 34px;
+        height: 34px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .refistration__form {
+        width: 237px;
+        height: 34px;
+    }
+
+    .refistration__form input {
+        width: 203px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .proposal-card img {
+        width: 131px;
+        height: 111px;
+    }
+
+
+
+
+}

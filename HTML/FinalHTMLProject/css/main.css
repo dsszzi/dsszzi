@@ -1058,3 +1058,10 @@
 .licence-info {
     margin-bottom: 17px;
 }
+
+
+/*Media*/
+
+.subscribe__btn-home img {
+    display: none;
+}
