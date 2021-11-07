@@ -123,6 +123,14 @@
     padding-right: 37px;
 }
 
+.navbar-nav li:nth-child(2) {
+margin-right: 236px;
+}
+
+.container-fluid img {
+margin-right: 2px;
+}
+
 .main__header-social {
     display: flex;
     align-items: center;
@@ -296,6 +304,24 @@
     padding-right: 17px;
 }
 
+.card_price span:nth-child(1) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.card_price span:nth-child(2) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+
 .main__content-proposal {
     display: flex;
     align-items: center;
@@ -335,6 +361,11 @@
 .proposal-card {
     display: flex;
     justify-content: space-between;
+}
+
+.card_rate {
+    display: flex;
+    gap: 10px;
 }
 
 . proposal-description h3 {
@@ -608,6 +639,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    margin-top: 20px;
 }
 
 .line_div {
