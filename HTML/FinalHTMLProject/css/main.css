@@ -124,11 +124,11 @@
 }
 
 .navbar-nav li:nth-child(2) {
-margin-right: 236px;
+    margin-right: 236px;
 }
 
 .container-fluid img {
-margin-right: 2px;
+    margin-right: 2px;
 }
 
 .main__header-social {
@@ -162,7 +162,7 @@ margin-right: 2px;
 }
 
 .main__header-contacts {
-    width: 400px;
+    width: 292px;
     text-align: end;
 }
 
@@ -178,7 +178,7 @@ margin-right: 2px;
 
 .main__header-down {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background: #FFFFFF;
     /* shadow */
@@ -198,6 +198,7 @@ margin-right: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 30px;
 }
 
 .line-block {
@@ -238,8 +239,9 @@ margin-right: 2px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    margin-left: 86px;
 }
+
 
 .d-flex button {
     width: 101px;
@@ -251,7 +253,7 @@ margin-right: 2px;
 }
 
 .form-control-home {
-    width: 549px;
+    width: 463px;
     height: 53px;
     left: 477px;
     top: 159px;
@@ -313,6 +315,25 @@ margin-right: 2px;
     color: #000000;
 }
 
+.card-discont {
+    width: 39px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFB800;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -5px;
+}
+
 .card_price span:nth-child(2) {
     font-family: Roboto;
     font-style: normal;
@@ -366,6 +387,12 @@ margin-right: 2px;
 .card_rate {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.card_rate img {
+    width: 16px;
+    height: 16px;
 }
 
 . proposal-description h3 {
@@ -377,7 +404,7 @@ margin-right: 2px;
     color: #0A1A2C;
 }
 
-.proposal-description>span {
+.proposal-description > span {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -522,6 +549,11 @@ margin-right: 2px;
     align-items: center;
 }
 
+.cadr-description {
+    padding-left: 30px;
+}
+
+
 .cadr-description button {
     width: 86px;
     height: 26px;
@@ -536,15 +568,16 @@ margin-right: 2px;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+
 }
 
 .arrov_left {
     margin-left: -10px;
     width: 40px;
     height: 40px;
-    left: 263px;
-    top: 794px;
     background: #FFFFFF;
+    border-radius: 50%;
+
 }
 
 .card-image img {
@@ -563,6 +596,7 @@ margin-right: 2px;
 
 .filter__container {
     padding-top: 70px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: flex-start;
     gap: 20px;
@@ -733,11 +767,26 @@ margin-right: 2px;
     padding: 0;
 }
 
+.vertival_circle {
+    width: 53px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+}
+
+.vertival_circle img {
+    margin-top: -9px;
+    margin-right: -4px;
+}
+
 .vertical_line {
     width: 53px;
     height: 20px;
     border-right: 1px solid #0C1A2A;
 }
+
 
 .complex__btn {
     text-align: center;
@@ -791,9 +840,22 @@ margin-right: 2px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 32px;
+    line-height: 16px;
     color: #FFFFFF;
     list-style-type: none;
+    margin-bottom: 1rem;
+
+}
+
+.company__info-inform p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-top: 45px;
+
 }
 
 .company__info-katalog {
@@ -813,6 +875,16 @@ margin-right: 2px;
     width: 276px;
     text-align: left;
     margin-right: 132px;
+}
+
+..company__info li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    list-style-type: none;
 }
 
 .company__info-contacts {
@@ -965,3 +1037,6 @@ margin-right: 2px;
     justify-content: space-between;
 }
 
+.licence-info {
+    margin-bottom: 17px;
+}
