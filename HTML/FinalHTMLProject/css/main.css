@@ -1,8 +1,8 @@
 .body, p {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
 }
-
 
 .container {
     display: flex;
@@ -15,12 +15,12 @@
 .main__content {
     width: 1320px;
 }
-
+/*Navigation header menu*/
 .spread {
     width: 1920px;
     height: 36px;
 }
-
+/*Main  information*/
 .main_container {
     width: 1920px;
     display: flex;
@@ -33,7 +33,7 @@
     width: 1920px;
     height: 196px;
     position: center;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
 }
 
 .main__header-up {
@@ -76,7 +76,6 @@
     line-height: 28px;
     color: #0F2438;
     padding-top: 30px;
-
 }
 
 .logo_title p {
@@ -87,7 +86,6 @@
     line-height: 14px;
     color: #0F2438;
 }
-
 
 .main__header-worktime {
     display: flex;
@@ -103,7 +101,6 @@
 .watch {
     padding-right: 10px;
 }
-
 
 .main__header-location {
     display: flex;
@@ -147,7 +144,6 @@
     vertical-align: center;
     color: #000000;
     margin-right: 20px;
-
 }
 
 .main__header-social img {
@@ -166,7 +162,6 @@
     text-align: end;
 }
 
-
 .main__header-contacts p {
     font-family: Roboto;
     font-style: normal;
@@ -183,7 +178,7 @@
     background: #FFFFFF;
     /* shadow */
 }
-
+/*Second line of main header content*/
 .main__header-down_menu {
     width: 164px;
     height: 53px;
@@ -223,7 +218,7 @@
     align-items: center;
     justify-content: center;
     background: #005BB9;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -231,7 +226,7 @@
     line-height: 17px;
     color: #FFFFFF;
     border: none;
-    border: 0px;
+    border: 0;
 }
 
 .main__header-down_user {
@@ -242,14 +237,13 @@
     margin-left: 86px;
 }
 
-
 .d-flex button {
     width: 101px;
     height: 53px;
     left: 1025px;
     top: 159px;
     background: #005BB9;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
 }
 
 .form-control-home {
@@ -258,8 +252,8 @@
     left: 477px;
     top: 159px;
     background: #F4F5FA;
-    border-radius: 6px 0px 0px 6px;
-    border: 0px;
+    border-radius: 6px 0 0 6px;
+    border: 0;
 }
 
 .form-control {
@@ -268,7 +262,7 @@
     left: 477px;
     top: 159px;
     background: #F4F5FA;
-    border-radius: 6px 0px 0px 6px;
+    border-radius: 6px 0 0 6px;
 }
 
 .user_logination {
@@ -293,7 +287,6 @@
 
 .user_shosen img {
     padding-right: 17px;
-
 }
 
 .user_cart {
@@ -342,7 +335,7 @@
     line-height: 16px;
     color: #B0B0B0;
 }
-
+/*Main product proposal cards with big image slider*/
 .main__content-proposal {
     display: flex;
     align-items: center;
@@ -353,6 +346,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 1042px;
     height: 400px;
     border-radius: 15px;
@@ -372,11 +366,44 @@
     height: 40px;
     background: #FFFFFF;
     /* shadow */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.proposal-dots {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background: #0D1C2B;
+    border-radius: 50%;
+}
+
+.dot_white {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.dot_3circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border-bottom: 1px solid black ;
+    border-left: 1px solid black ;
+    border-top: 1px solid black ;
+    transform: rotate(-45deg);
 }
 
 .proposal-card {
@@ -431,9 +458,7 @@
     font-size: 22px;
     line-height: 26px;
     /* identical to box height */
-
     text-decoration-line: line-through;
-
     color: #C2C5DA;
 }
 
@@ -482,7 +507,6 @@
 .card-footer {
     display: flex;
     justify-content: flex-end;
-
 }
 
 .prise {
@@ -515,7 +539,7 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-
+/*All good of the company in one carusel*/
 .main__content-carusel {
     display: flex;
     justify-content: space-between;
@@ -553,7 +577,6 @@
     padding-left: 30px;
 }
 
-
 .cadr-description button {
     width: 86px;
     height: 26px;
@@ -577,7 +600,6 @@
     height: 40px;
     background: #FFFFFF;
     border-radius: 50%;
-
 }
 
 .card-image img {
@@ -593,7 +615,7 @@
     top: 794px;
     background: #FFFFFF;
 }
-
+/*Filter for all products*/
 .filter__container {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -645,7 +667,7 @@
     vertical-align: center;
     padding: 13px;
 }
-
+/*Main products store, to load more press the button bottom*/
 .product__container {
     display: flex;
     flex-wrap: wrap;
@@ -655,9 +677,7 @@
 
 .product__container-card {
     width: 316px;
-
 }
-
 
 .container-button {
     width: 160px;
@@ -736,7 +756,6 @@
     height: 356px;
 }
 
-
 .data_changed {
     width: 106px;
     height: 22px;
@@ -756,6 +775,7 @@
     margin-bottom: 20px;
 }
 
+/*Some actual additional info*/
 .period__description p {
     font-family: Roboto;
     font-style: normal;
@@ -787,7 +807,6 @@
     border-right: 1px solid #0C1A2A;
 }
 
-
 .complex__btn {
     text-align: center;
     width: 106px;
@@ -806,7 +825,7 @@
     border-radius: 50%;
     background: #0C1A2A;
 }
-
+/*All info about company, form for registration*/
 .footer__container {
     width: 1920px;
     display: flex;
@@ -877,7 +896,7 @@
     margin-right: 132px;
 }
 
-..company__info li {
+.company__info li {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -939,7 +958,6 @@
     display: flex;
     width: 470px;
     justify-content: space-between;
-
 }
 
 .contact {
