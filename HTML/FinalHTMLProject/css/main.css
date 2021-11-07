@@ -14,13 +14,11 @@
 
 .main__content {
     width: 1320px;
-
 }
 
 .spread {
     width: 1920px;
     height: 36px;
-    position: center;
 }
 
 .main_container {
@@ -39,14 +37,12 @@
 }
 
 .main__header-up {
-
     height: 98px;
     display: flex;
     flex-direction: row;
 }
 
 .main__header-down {
-
     height: 98px;
     display: flex;
     flex-direction: row;
@@ -183,12 +179,31 @@
 .main__header-down_menu {
     width: 164px;
     height: 53px;
-    left: 283px;
-    top: 159px;
     background: #005BB9;
     border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.line-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    margin-right: 12px;
+}
+
+.line {
+    width: 20px;
+    height: 3px;
+    background: #FFFFFF;
+}
 
 .subscribe__btn-home {
     width: 101px;
@@ -226,6 +241,7 @@
     background: #005BB9;
     border-radius: 0px 6px 6px 0px;
 }
+
 .form-control-home {
     width: 549px;
     height: 53px;
@@ -235,6 +251,7 @@
     border-radius: 6px 0px 0px 6px;
     border: 0px;
 }
+
 .form-control {
     width: 549px;
     height: 53px;
@@ -242,7 +259,6 @@
     top: 159px;
     background: #F4F5FA;
     border-radius: 6px 0px 0px 6px;
-
 }
 
 .user_logination {
@@ -251,13 +267,11 @@
     padding-right: 25px;
     height: 28px;
     border-right: 1px solid #E1E5F8;
-
 }
 
 .user_logination img {
     padding-right: 17px;
 }
-
 
 .user_shosen {
     display: flex;
@@ -299,9 +313,82 @@
     background: url(../image/main_header/geret.png) no-repeat center / contain;
 }
 
-.discont-card {
-
+.proposal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 89px;
 }
+
+.proposal-arrow {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proposal-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+. proposal-description h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.proposal-description>span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.new_prise {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+
+    color: #005BB9;
+}
+
+.old_prise {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-decoration-line: line-through;
+
+    color: #C2C5DA;
+}
+
+.prise1 {
+    margin-bottom: 15px;
+    margin-top: 86px;
+}
+
+.proposal-description h3 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
 
 .card {
     width: 336px;
@@ -824,5 +911,25 @@
     color: #737E9B;
     padding-left: 283px;
     margin-top: 73px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.navbar {
+    background: #0F2438;
+}
+
+.container-fluid a {
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
