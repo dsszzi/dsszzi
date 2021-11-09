@@ -25,7 +25,7 @@
         line-height: 16px;
     }
 
-    .logo_title p{
+    .logo_title p {
         font-size: 8px;
         line-height: 10px;
     }
@@ -34,6 +34,7 @@
         font-size: 14px;
         line-height: 16px;
     }
+
     .product__container {
         width: 320px;
     }
@@ -124,6 +125,11 @@
         line-height: 16px;
     }
 
+    .new_prise {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
     .cart__btn {
         width: 32px;
         height: 32px;
@@ -136,8 +142,32 @@
         line-height: 14px;
     }
 
+    .proposal-slider {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+
+    .proposal-card {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+
     .main__header-down_menu span {
         display: none;
+    }
+
+    .proposal-description h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .proposal-description span {
+        font-size: 10px;
+        line-height: 12px;
     }
 
     .main__header-down_menu {
@@ -174,7 +204,28 @@
         height: 111px;
     }
 
+    .period__description-changes,
+    .period__description-interface,
+    .period__description-mobile,
+    .period__description-new {
+        padding: 10px 10px;
+        padding: 10px 10px;
+        margin: 0 10px;
+        height: fit-content;
+    }
 
+    .proposal-arrow {
+        display: none;
+    }
 
+    .container-button {
+        width: 124px;
+        height: 34px;
+    }
+
+    .container-button img {
+        width: 12px;
+        height: 8px;
+    }
 
 }
